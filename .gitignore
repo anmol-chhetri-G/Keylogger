@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Keylogger logs (never commit captured keystrokes)
+*.log
+*.log.1
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,4 @@
+# Dev/test dependencies — not needed at runtime.
+# Left unpinned so CI always exercises the current lint/test tooling.
+pytest
+ruff

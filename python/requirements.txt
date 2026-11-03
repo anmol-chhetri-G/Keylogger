@@ -1,0 +1,9 @@
+# Runtime dependencies — Linux only for now.
+#
+# evdev reads /dev/input directly (kernel level), which is why the tool works
+# the same under Wayland and X11.
+#
+# pynput / python-xlib / six were dropped from the original requirement.txt:
+# they were listed but never imported. Add pynput back if/when a Windows or
+# macOS backend lands (see the README roadmap).
+evdev==1.9.2
